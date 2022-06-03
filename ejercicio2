@@ -1,0 +1,10 @@
+fecha_nacimiento = new Date(1994,2,08);
+libro_favorito = {
+    titulo : "El poder del ahora",
+    autor : "Eckhart Tolle",
+    fecha : new Date(1997,4,14),
+    url : "https://es.wikipedia.org/wiki/El_poder_del_Ahora",
+}
+const leccion2 = ["Hernan", 28, false, fecha_nacimiento, libro_favorito ]
+
+console.log(leccion2);
