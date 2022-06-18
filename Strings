@@ -1,0 +1,10 @@
+let Nombre = "Hernan"
+let Apellido = "Verzini"
+let estudiante = Nombre + " " + Apellido
+let estudianteMayus = estudiante.toUpperCase()
+let estudianteMinus = estudiante.toLowerCase()
+let letras = estudiante.length
+let primera = Nombre[0]
+let ultima = Apellido[(Apellido.length-1)]
+let sinespacios = estudiante.trim()
+console.log(estudiante.includes("Hernan"))
