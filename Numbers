@@ -1,0 +1,9 @@
+let altura = 176 ;
+let alturam = 1.76 ;
+
+let peso = 75.3 ;
+console.log(alturam.toFixed(1))
+console.log(peso.toPrecision(2))
+
+let max = Number.MAX_VALUE;
+console.log(max == max + 1)
