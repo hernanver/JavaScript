@@ -1,0 +1,9 @@
+function sinpar(){
+    return true
+}
+
+function asincronica() {
+      console.log("Hola soy promesa");
+  }
+
+setTimeout(asincronica,5000);
